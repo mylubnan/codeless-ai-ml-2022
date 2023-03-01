@@ -78,6 +78,9 @@ $First4Titles$ IN ("Miss","Mast") => "Child"
  <img src="Images/final.png" alt="image" width="100%"/> 
 </p>
 
+# Author
+- Lubnan Samae
+
 ## Project Resources
 - https://towardsdatascience.com/a-beginners-guide-to-kaggle-s-titanic-problem-3193cb56f6ca // Explanation resource
 - https://www.kaggle.com/competitions/titanic/ // Data-set resource
