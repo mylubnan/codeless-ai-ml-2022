@@ -81,7 +81,7 @@ $First4Titles$ IN ("Miss","Mast") => "Child"
 # Author
 - Lubnan Samae
 
-## Project Resources
+# Project Resources
 - https://towardsdatascience.com/a-beginners-guide-to-kaggle-s-titanic-problem-3193cb56f6ca // Explanation resource
 - https://www.kaggle.com/competitions/titanic/ // Data-set resource
 - https://www.youtube.com/watch?v=OOgRIwrwJQY // Tutorial resource
