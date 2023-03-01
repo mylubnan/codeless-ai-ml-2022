@@ -30,7 +30,7 @@ Understanding the concept of the CRISP-DM model then clarifying which part of th
 ## Data understanding of CRISP-DM 
 Import data by CSV Reader node, then make it easier to see using the Statistics node.
 <p float="left">
- <img src="Images/1.png" alt="image" width="50%"/> 
+ <img src="Images/1.png" alt="image" width="25%"/> 
 </p>
 
 ##  Data Preparation of CRISP-DM
@@ -60,7 +60,7 @@ $First4Titles$ IN ("Miss","Mast") => "Child"
 ```
 
 <p float="left">
- <img src="Images/2.png" alt="image" width="70%"/> 
+ <img src="Images/2.png" alt="image" width="80%"/> 
 </p>
 
 ##  Modeling of CRISP-DM
@@ -70,7 +70,7 @@ $First4Titles$ IN ("Miss","Mast") => "Child"
 
 ##  Evaluation of CRISP-DM
 <p float="left">
- <img src="Images/4.png" alt="image" width="60%"/> 
+ <img src="Images/4.png" alt="image" width="70%"/> 
 </p>
 
 ## Whole Process in KNIME
