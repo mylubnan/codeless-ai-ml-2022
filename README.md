@@ -27,7 +27,10 @@ Understanding the concept of the CRISP-DM model then clarifying which part of th
 - Column Rename
 - Table View
 
-## Data understanding of CRISP-DM 
+## Business Understanding of CRISP-DM
+The main objective of this project is to make the AI/ML prediction base on the titanic data set when the titanic disaster happen so that we know how much chance that people would survive and not survived. Moreover, it is to see which model of AI/ML is the most suitable compared with the accuracy of the prediction.
+
+## Data Understanding of CRISP-DM 
 Import data by CSV Reader node, then make it easier to see using the Statistics node.
 <p float="left">
  <img src="Images/1.png" alt="image" width="25%"/> 
@@ -58,6 +61,12 @@ Then add the new Rule Engine node put after the string Manipulation but before t
 $First4Titles$ IN ("Mrs.","Mr. ", "Dr. ", "Don.", "Rev.", "Mme.", "Jonk", "the ", "Capt", "Mlle", "Col.", "Sir.", "Lady", "Majo", "Ms. ") => "Adult"
 $First4Titles$ IN ("Miss","Mast") => "Child"
 ```
+
+Then add another new Rule Engine node put before the Missing Value node, in the expression put this
+`
+MISSING $AgeBracket$ => $AgeBracket2$
+TRUE => $AgeBracket$
+`
 
 <p float="left">
  <img src="Images/2.png" alt="image" width="80%"/> 
