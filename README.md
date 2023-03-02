@@ -90,19 +90,19 @@ Now, you can you these nodes for preparation data to connect to the model such a
 Firstly we use the 3 Random Forest nodes to see that check that the improvement of the rule engine that we use is working so we only use the most one of these prepared data.
 
 <p float="left">
- <img src="Images/3.1.png" alt="image" width="80%"/> 
+ <img src="Images/3.1.png" alt="image" width="60%"/> 
 </p>
 
 Next, when we know which one is most prepared so use that one to another model which is the Naive Bayes node.
 
 <p float="left">
- <img src="Images/3.2.png" alt="image" width="80%"/> 
+ <img src="Images/3.2.png" alt="image" width="70%"/> 
 </p>
 
 Moreover, we use that one to another model which is the Decision Tree node.
 
 <p float="left">
- <img src="Images/3.3.png" alt="image" width="80%"/> 
+ <img src="Images/3.3.png" alt="image" width="70%"/> 
 </p>
 
 Then, we can see the result in the next part
@@ -119,11 +119,11 @@ In the scorer, we can see the result of all such as correct classified, wrong cl
 </p>
 
 <p float="left">
- <img src="Images/5.1.png" alt="image" width="70%"/> 
+ <img src="Images/5.1.png" alt="image" width="80%"/> 
 </p>
 
 <p float="left">
- <img src="Images/5.2.png" alt="image" width="70%"/> 
+ <img src="Images/5.2.png" alt="image" width="80%"/> 
 </p>
 
 In the scorer, we can see the result of all such as correct classified, wrong classified, accuracy, etc. Then use the Column Appender node then connect all 3 nodes from the Random Forest nodes. After that use the Column Rename node to make the viewer not confused with the names of the columns. Then in first table view will show the comparison of the number of correct and wrong predictions of each model. However, in the second part, we put the rule engine to make the comparison of the model itself based on the accuracy of each model and then show in the table view which one is the best suitable model.
@@ -133,11 +133,11 @@ In the scorer, we can see the result of all such as correct classified, wrong cl
 </p>
 
 <p float="left">
- <img src="Images/5.3.png" alt="image" width="70%"/> 
+ <img src="Images/5.3.png" alt="image" width="80%"/> 
 </p>
 
 <p float="left">
- <img src="Images/5.4.png" alt="image" width="70%"/> 
+ <img src="Images/5.4.png" alt="image" width="80%"/> 
 </p>
 
 <p float="left">
