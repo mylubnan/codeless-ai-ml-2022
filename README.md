@@ -149,7 +149,7 @@ In the scorer, we can see the result of all such as correct classified, wrong cl
  <img src="Images/final.png" alt="image" width="100%"/> 
 </p>
 
-##Conclusion
+## Conclusion
 To sum up, the best suitable for this data set is depend on the randomization of the partition. The most frequency of highest accuracy is the Naive Bayes node, followed by the Random Forest node, and lastly the Decision Tree node.
 
 # Author
